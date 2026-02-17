@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    margin-top: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #C40044;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.logo-mercado {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.cor {
+    color: yellow;
+}
+
+.botoes-nav {
+    display: flex;
+    gap: 18px;
+}
+
+.btn-valores {
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-size: 0.9rem;
+    border: 0.5px solid white;
+}
+
+.btn-contato {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #C40044;
+    font-weight: 600;
+}
+
+.btn-valores:hover {
+    background-color: #F5E9ED;
+    color: #B8003F;
+    cursor: pointer;
+}
+
+.btn-contato:hover {
+    background-color: #F5E9ED;
+    color: #B8003F;
+    cursor: pointer;
+}
+
+.parte-inicial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C40044;
+    font-weight: 600;
+}
+
+
+
+
+.frase {
+    color: white;
+    font-size: 2rem;
+}
+
+.frase h2 {
+    line-height: 70px;
+}
+
+.quebra{
+    display: block;
+}
+
+.paragrafo {
+    font-size: 1.2rem;
+    color: yellow;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.foto-mulher {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+    min-height: 500px;
+    margin-bottom: 13px;
+    padding-right: 20px;
+}
+
+.cards {
+    padding-top: 80px;
+    background: #fafafa;
+}
+
+.titulo-cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.box-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+    text-align: start;
+}
+
+.card {
+    padding: 4rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    border-top: 4px solid #c0003b;
+    border-bottom: 4px solid #c0003b;
+    text-align: center;
+    width: 20%;
+}
+
+.icon {
+    align-self: center;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    scroll-margin-top: 100px;
+}
+
+.titulo-contato {
+    line-height: 80px;
+    font-size: 2rem;
+}
+
+.input-contato {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-form {
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.text-duvida {
+    border-radius: 5px;
+    border: 1px solid black;
+    max-width: 400px;
+    height: 100%;
+    max-height: 400px;
+    width: 100%;
+    margin: 10px;
+}
+
+.text-duvida::placeholder {
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.enviar {
+    width: 100%;
+    min-height: 40px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #C40044;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    max-width: 400px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px;
+    align-items: center;
+    background-color: #C40044;
+    padding: 30px 60px;
+}
+
+.logo-footer {
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu-footer {
+    display: flex;
+    gap: 32px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.item-footer:hover {
+    color: #F5E9ED;
+}
+
+.item-footer {
+    font-weight: 500;
+    color: white;
+}
+
+.ajuda-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+    padding: 0;
+}
+
+.ajuda-footer:hover {
+    color: #F5E9ED;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media(max-width: 450px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+        
+    }
+
+    .btn-valores{
+        display: none;
+
+    }
+
+    .btn-contato{
+        text-align: center;
+    }
+
+    .parte-inicial{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frase{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .frase h2{
+        line-height: 40px;
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+    .paragrafo{
+        font-size: 0.9rem;
+    }
+
+
+    .quebra{
+        display: inline;
+    }
+    
+    .titulo-cards{
+        font-size: 2rem;
+    }
+
+    .box-cards{
+        display: flex;
+        flex-direction: column;
+        gap:  30px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+     
+    }
+
+    .titulo-contato{
+        text-align: center;
+        line-height: 50px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-weight: bolder;
+    }
+
+    .ajuda-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+
+    
+}
